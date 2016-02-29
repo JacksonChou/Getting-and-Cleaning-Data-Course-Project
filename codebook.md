@@ -40,7 +40,7 @@ The following is a list where portions of the descriptive variables were renamed
 ```
 Example:
  
-The variable  ```tBodyAcc-mean()-X``` was renamed to ```BodyAccelerationmeanX```.
+The original variable  ```tBodyAcc-mean()-X``` was renamed to ```BodyAccelerationmeanX```.
 
 
 

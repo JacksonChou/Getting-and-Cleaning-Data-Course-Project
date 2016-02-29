@@ -20,7 +20,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 **Activity** - factor that represents the activity as described in the data set information: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-**Columns ```3:68```** - represents the mean or standard deviation of the features selected in [features_info.txt](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/edit/master/features_info.txt)
+**Columns ```3:68```** - represents the mean or standard deviation of the features selected in [features_info.txt](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/edit/master/features_info.txt).  These are the original feature description from UCI dataset.
 
 ##Data Transformations
 

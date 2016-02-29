@@ -32,7 +32,7 @@ The following is a list where portions of the descriptive variables were renamed
 ```
 Example:
  
- ```tBodyAcc-mean()-X``` changes to ```BodyAccelerationmeanX```
+The variable  ```tBodyAcc-mean()-X``` was renamed to ```BodyAccelerationmeanX```.
 
 ##Data Definitions
 
@@ -40,9 +40,6 @@ Example:
 
 **Activity** - factor that represents the activity as described in the data set information: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-
-
-
-
+Columns ```3:68``` represents the mean or standard deviation of the features selected in [features_info.txt](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/edit/master/features_info.txt)
 
 

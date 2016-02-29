@@ -13,10 +13,13 @@ You should create one R script called run_analysis.R that does the following:
 ##Dependencies
 
 The script run_analysis.R depends on the the following libraries:
+
+```{r}
   1. reshape2
   2. dplyr
   3. plyr
   4. stringr
+```
 
 The script will check if you have these libraries installed, if not it will install them for you.
 

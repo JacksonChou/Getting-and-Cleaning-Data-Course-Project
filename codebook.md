@@ -1,7 +1,6 @@
 ##Codebook
 
-
-This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+This is the codebook that describes the variables of the output in ```"tidydataset.txt"```.
 
 ##Original Data Source
 

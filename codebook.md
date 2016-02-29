@@ -18,7 +18,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The column names in the ```tidydataset.txt``` has been renamed for clarity.  Output of the tidy dataset results in 180 rows and 68 columns.
 
-The following is a list of descriptive variables renamed:
+The following is a list where portions of the descriptive variables were renamed:
 
 ```{r}
 "BodyBody" to "Body"
@@ -30,6 +30,9 @@ The following is a list of descriptive variables renamed:
 "Gyro", "AngularVelocity"
 "Mag", "Magnitude"
 ```
+Example:
+ 
+ ```tBodyAcc-mean()-X``` changes to ```BodyAccelerationmeanX```
 
 ##Data Definitions
 

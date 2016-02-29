@@ -29,12 +29,12 @@ The [run_analysis.R](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Co
 
 More information on the variables in the tidydataset can be found in codebook.md
 
-The following is the process of ```{r}run_analysis.R```:
+The following is the process of ```run_analysis.R```:
 
 1. Downloads and reads the zipped files from UCI repository, then merges the training and test set into one data set
 2. After merging dataset, subset data to only keep columns (variables) that have mean or standard deviation measures of the subjects
-3. Renames the columns of the combined dataset based on the ```{r}"activity_labels.txt"``` file from UCI Har Dataset
+3. Renames the columns of the combined dataset based on the ```"activity_labels.txt"``` file from UCI Har Dataset
 4. From the subsetted data, creates a secondary dataset that averages each column by the subject and activity factors
-5. Output of the script will be a text file ```{r}"tidydataset.txt"```
+5. Output of the script will be a text file ```"tidydataset.txt"```
 
 

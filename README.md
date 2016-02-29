@@ -12,7 +12,7 @@ You should create one R script called run_analysis.R that does the following:
 
 ##Dependencies
 
-The script run_analysis.R depends on the the following libraries:
+The script [run_analysis.R](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) depends on the the following libraries:
 
 ```{r}
   1. reshape2

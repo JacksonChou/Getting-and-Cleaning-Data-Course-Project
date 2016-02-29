@@ -14,6 +14,14 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
+##Data Definitions
+
+**Subjects**  - factor that represents the subject (ranging from 1 to 30)
+
+**Activity** - factor that represents the activity as described in the data set information: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+**Columns ```3:68```** - represents the mean or standard deviation of the features selected in [features_info.txt](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/edit/master/features_info.txt)
+
 ##Data Transformations
 
 The column names in the ```tidydataset.txt``` has been renamed for clarity.  Output of the tidy dataset results in 180 rows and 68 columns.
@@ -34,12 +42,6 @@ Example:
  
 The variable  ```tBodyAcc-mean()-X``` was renamed to ```BodyAccelerationmeanX```.
 
-##Data Definitions
 
-**Subjects**  - factor that represents the subject (ranging from 1 to 30)
-
-**Activity** - factor that represents the activity as described in the data set information: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-
-Columns ```3:68``` represents the mean or standard deviation of the features selected in [features_info.txt](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/edit/master/features_info.txt)
 
 

@@ -15,20 +15,17 @@
 #################################################################################
 
 
-if (!require('data.table')) {
-  install.packages('data.table')
-}
-
 if (!require('reshape2')) {
   install.packages('reshape2')
 }
 
-if (!require('plyr')) {
-  install.packages('plyr')
-}
 
 if (!require('dplyr')) {
   install.packages('dplyr')
+}
+
+if (!require('plyr')) {
+  install.packages('plyr')
 }
 
 if (!require('stringr')) {
@@ -36,9 +33,9 @@ if (!require('stringr')) {
 }
 
 
-require('data.table')
 require('reshape2')
 require('dplyr')
+require('plyr')
 require('stringr')
 
 #Download the zip files
@@ -130,7 +127,7 @@ tidyfactors <- data.frame(t(sapply(strsplit(rownames(tidydata), "[.]"), c)))
 
 tidydata <- cbind(tidyfactors, tidydata)
 
-tidydata <- rename(tidydata, Subjects = X1, Activity = X2)
+tidydata <- dlyr::rename(tidydata, Subjects = X1, Activity = X2)
 
 tidydata$Subjects <-as.factor(tidydata$Subjects)
 tidydata$Activity <-as.factor(tidydata$Activity)

@@ -27,7 +27,7 @@ The script will check if you have these libraries installed, if not it will inst
 
 The [run_analysis.R](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) script downloads the UCI Har Dataset, subsets the data to only measurements of mean and standard deviation for each activity, and transforms the subset data into a tidy dataset.  In this tidy dataset, the output in each column represents a variable, and each variable represents a measure or characteristic of the subjects.
 
-More information on the variables in the tidydataset can be found in codebook.md
+More information on the variables in the tidydataset can be found in [codebook.md](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/blob/master/codebook.md)
 
 The following is the process of ```run_analysis.R```:
 

@@ -5,6 +5,7 @@ This is the codebook that describes the variables of the output in ```"tidydatas
 ##Original Data Source
 
 Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Source description of dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ##Data Set Information

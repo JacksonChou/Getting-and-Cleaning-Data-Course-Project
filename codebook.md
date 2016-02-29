@@ -1,6 +1,6 @@
 ##Codebook
 
-This is the codebook that describes the variables of the output in ```"tidydataset.txt"```.
+This is the codebook that describes the variables of the [run_analysis.R](https://github.com/JacksonChou/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) output in ```"tidydataset.txt"```.
 
 ##Original Data Source
 
